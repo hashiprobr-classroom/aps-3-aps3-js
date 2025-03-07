@@ -14,7 +14,10 @@ public class Corrida {
     }
 
     private int nota(int nota) {
-        if (nota > 5) {
+        if (nota < 1) {
+            return 1;
+        }
+        else if (nota > 5) {
             return 5;
         }
         else {

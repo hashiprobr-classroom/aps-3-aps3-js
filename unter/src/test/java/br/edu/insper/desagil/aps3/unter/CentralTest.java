@@ -35,7 +35,6 @@ public class CentralTest {
         Corrida corrida3 = new Corrida(p1);
         Corrida corrida4 = new Corrida(p2);
 
-        corrida1.avaliaPassageiro(0);
         corrida2.avaliaPassageiro(4);
         corrida3.avaliaPassageiro(5);
         corrida4.avaliaPassageiro(3);
@@ -61,7 +60,6 @@ public class CentralTest {
         corrida3.setMotorista(m1);
         corrida4.setMotorista(m2);
 
-        corrida1.avaliaMotorista(0);
         corrida2.avaliaMotorista(2);
         corrida3.avaliaMotorista(3);
         corrida4.avaliaMotorista(1);
